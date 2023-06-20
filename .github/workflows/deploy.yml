@@ -31,6 +31,7 @@ jobs:
             cd /home/ubuntu/cicd-test-app
             git stash
             git pull origin master
+            cd /home/ubuntu/cicd-test-app/server
             npm install
             pm2 restart server
 
