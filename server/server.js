@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/api", (req, res) => {
-  res.json({ users: ["David", "Bane", "Victor", "Lesly"] });
+  res.json({ users: ["Martis", "Brody", "Jean", "Lesly"] });
 });
 
 app.listen(5000, () => {
