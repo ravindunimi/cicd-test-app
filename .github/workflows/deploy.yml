@@ -28,7 +28,7 @@ jobs:
         script: |
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
-          cd /home/ubuntu/cicd-test-app/server
+          cd /home/ubuntu/cicd-test-app
           git stash
           git pull origin master
           npm install
