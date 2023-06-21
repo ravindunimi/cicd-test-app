@@ -6,7 +6,7 @@ app.get("/api", (req, res) => {
 });
 
 app.get("/members", (req, res) => {
-  res.json({ users: ["Ravind", "Rayan", "Victor"] });
+  res.json({ users: ["Ravind", "David", "Victor"] });
 });
 
 app.listen(5000, () => {
