@@ -2,11 +2,11 @@ const express = require("express");
 const app = express();
 
 app.get("/api", (req, res) => {
-  res.json({ users: ["Ravindu123", "Layla", "Peter", "Kevin"] });
+  res.json({ users: ["Johnson", "Layla", "Peter", "Kevin"] });
 });
 
 app.get("/members", (req, res) => {
-  res.json({ users: ["Ravindu", "David", "Victor"] });
+  res.json({ users: ["Belarik", "David", "Victor"] });
 });
 
 app.listen(5000, () => {
