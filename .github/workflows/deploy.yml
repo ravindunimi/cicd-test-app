@@ -32,7 +32,8 @@ jobs:
             git stash
             git pull origin master
             npm install
-            pm2 restart server
+            # pm2 restart server
+            node server
 
       - name: Remove Github Actions IP from security group
         run: |
